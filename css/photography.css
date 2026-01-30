@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background: #000;
+}
+
+header a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+/* Filters */
+#filters {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filter {
+  display: inline-block;
+  margin: 5px;
+  padding: 6px 12px;
+  border: 1px solid #555;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.filter.active {
+  background: white;
+  color: black;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Lightbox */
+#lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.lightbox-content {
+  max-width: 90%;
+  text-align: center;
+}
+
+#lightbox img {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+#close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+#lightbox-tags span {
+  margin: 0 5px;
+  color: #aaa;
+  font-size: 0.9rem;
+}

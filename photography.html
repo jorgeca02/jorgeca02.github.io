@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Photography</title>
+  <link rel="stylesheet" href="css/photography.css">
+</head>
+
+<body>
+  <header>
+    <a href="index.html">Home</a>
+    <a href="cds.html">CDs</a>
+  </header>
+
+  <main>
+    <h1>Photography</h1>
+    <p class="subtitle">Selected moments & compositions</p>
+
+    <div id="filters"></div>
+    <div class="gallery" id="gallery"></div>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox">
+    <span id="close">&times;</span>
+    <div class="lightbox-content">
+      <img id="lightbox-img">
+      <h3 id="lightbox-title"></h3>
+      <p id="lightbox-desc"></p>
+      <div id="lightbox-tags"></div>
+    </div>
+  </div>
+
+  <script src="js/gallery.js"></script>
+</body>
+</html>
