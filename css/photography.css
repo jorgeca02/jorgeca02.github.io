@@ -61,15 +61,19 @@ h1 {
 
 /* Gallery */
 .gallery {
-    columns: 4;
-    gap: 12px;
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 12px;
+    gap:12px;
+    -moz-column-count: 5;
+    -moz-column-gap: 0px;
+    column-count: 5;
+    column-gap: 5px;
 }
 
 .gallery img {
-    width: 100%;
-    margin-bottom: 12px;
-    border-radius: 8px;
-    display: block;
+    width: 100% !important;
+    height: auto !important;
 }
 
 /* Lightbox */
