@@ -1,20 +1,119 @@
 [
-  {
-    "file": "main copy 2.webp",
-    "title": "Morning Light",
-    "description": "Soft light in early morning",
-    "tags": ["nature", "light", "morning"]
-  },
-  {
-    "file": "main copy 3.webp",
-    "title": "Urban Silence",
-    "description": "Empty streets at night",
-    "tags": ["city", "night"]
-  },
-  {
-    "file": "main copy 4.webp",
-    "title": "Portrait",
-    "description": "Natural light portrait",
-    "tags": ["portrait", "people"]
-  }
+    
+    {
+        "file": "auroras1.webp",
+        "title": "Via lactea sobre el chum",
+        "description": "Soft light in early morning",
+        "tags": [
+            "night",
+            "Rusia"
+        ]
+    },
+    {
+        "file": "auroras2.webp",
+        "title": "Auroras sobre los chum",
+        "description": "Soft light in early morning",
+        "tags": [
+            "night",
+            "Rusia",
+            "landscape"
+        ]
+    },
+    {
+        "file": "siberia1.webp",
+        "title": "mañana nevada",
+        "description": "Soft light in early morning",
+        "tags": [
+            "Rusia",
+            "landscape"
+        ]
+    },
+    {
+        "file": "siberia2.webp",
+        "title": "mañana nevada",
+        "description": "Soft light in early morning",
+        "tags": [
+            "Rusia",
+            "landscape"
+        ]
+    },
+    {
+        "file": "siberia3.webp",
+        "title": "mañana nevada",
+        "description": "Soft light in early morning",
+        "tags": [
+            "portrait",
+            "people",
+            "Rusia"
+        ]
+    },
+    {
+        "file": "siberia4.webp",
+        "title": "mañana nevada",
+        "description": "Soft light in early morning",
+        "tags": [
+            "portrait",
+            "people",
+            "Rusia"
+        ]
+    },
+    {
+        "file": "siberia5.webp",
+        "title": "mañana nevada",
+        "description": "Soft light in early morning",
+        "tags": [
+            "portrait",
+            "people",
+            "Rusia",
+            "nature"
+        ]
+    },
+    {
+        "file": "siberia6.webp",
+        "title": "mañana nevada",
+        "description": "Soft light in early morning",
+        "tags": [
+            "people",
+            "Rusia",
+            "nature"
+        ]
+    },
+    {
+        "file": "siberia7.webp",
+        "title": "mañana nevada",
+        "description": "Soft light in early morning",
+        "tags": [
+            "Rusia",
+            "nature"
+        ]
+    },
+    {
+        "file": "siberia8.webp",
+        "title": "mañana nevada",
+        "description": "Soft light in early morning",
+        "tags": [
+            "Rusia",
+            "nature",
+            "people"
+        ]
+    },
+    {
+        "file": "siberia9.webp",
+        "title": "mañana nevada",
+        "description": "Soft light in early morning",
+        "tags": [
+            "Rusia",
+            "nature",
+            "people"
+        ]
+    },
+    {
+        "file": "siberia10.webp",
+        "title": "mañana nevada",
+        "description": "Soft light in early morning",
+        "tags": [
+            "Rusia",
+            "nature"
+        ]
+    }
 ]
