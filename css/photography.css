@@ -72,6 +72,8 @@ h1 {
 }
 
 .gallery img {
+    margin-top:12px;
+    border-radius: 6px;
     width: 100% !important;
     height: auto !important;
 }
